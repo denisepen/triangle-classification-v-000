@@ -13,8 +13,8 @@ class Triangle
       :equilateral
     elsif s1 == s2 || s2 == s3
       :isoceles
-    else
-      :isoceles
+    elsif s1 != s2 && s1 != s3 && s2 != s3
+      :scalene
     end
   end
 end
