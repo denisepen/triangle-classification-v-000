@@ -11,10 +11,11 @@ class Triangle
   def kind(s1, s2, s3)
     if s1 == s2 && s2 == s3
       :equilateral
-    elsif s1 != s2 && s1 != s3 && s2 != s3
-      :scalene
+    elsif s1 == s2 || s2 == s3
+      :isoceles
     else
       :isoceles
     end
   end
 end
+# s1 != s2 && s1 != s3 && s2 != s3
