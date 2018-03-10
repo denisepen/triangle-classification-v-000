@@ -19,7 +19,7 @@ class Triangle
       :isosceles
     elsif s1 != s2 && s1 != s3 && s2 != s3
       :scalene
-    else s1 + s2 < s3 || s2 + s3 < s1 || s1 + s3 < s2
+    else s1 + s2 <= s3 || s2 + s3 <= s1 || s1 + s3 <= s2
       raise TriangleError
     end
   end
