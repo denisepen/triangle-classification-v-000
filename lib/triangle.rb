@@ -1,9 +1,10 @@
 class Triangle
 
-  def initialize (s1:, s2:, s3:)
+  def initialize (s1, s2, s3)
 
   end
 
-  def kind
+  def kind()
+    if 
   end
 end
