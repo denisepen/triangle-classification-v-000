@@ -15,5 +15,6 @@ class Triangle
       :scalene
     else
       :isoceles
+    end
   end
 end
